@@ -1,0 +1,17 @@
+{
+  "author": "truepattern <admin@truepattern.com> (https://github.com/truepattern)",
+  "name": "connect-clientinfa",
+  "description": "Connect/Express Middleware for additional client information",
+  "version": "0.0.1",
+  "homepage": "https://github.com/truepattern/connect-clientinfa",
+  "version": "0.0.1",
+  "dependencies": {
+    "connect"   : ">= 2.1.0"
+  },
+  "devDependencies": [],
+  "keywords": ["whatsmyip", "connect", "express", "middleware"],
+  "repository": {"type":"git", "url": "git://github.com/truepattern/connect-clientinfa"},
+  "main": "lib/index",
+  "scripts": { "prepublish" : "npm prune" },
+  "engines": { "node":">= 0.5.0 < 0.7.0" }
+}
